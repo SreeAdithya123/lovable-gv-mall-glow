@@ -3,6 +3,9 @@ import { ArrowRight } from "lucide-react";
 import categorySareesImage from "@/assets/category-sarees.jpg";
 import categoryMensImage from "@/assets/category-mens.jpg";
 import categoryFurnishingsImage from "@/assets/category-furnishings.jpg";
+import categoryKidsImage from "@/assets/category-kids.jpg";
+import categoryCasualImage from "@/assets/category-casual.jpg";
+import categoryNightwearImage from "@/assets/category-nightwear.jpg";
 
 const categories = [
   {
@@ -25,6 +28,27 @@ const categories = [
     description: "Textiles, cushions & decoratives",
     image: categoryFurnishingsImage,
     link: "/home"
+  },
+  {
+    id: "kids",
+    title: "Kids Wear",
+    description: "Adorable outfits for little ones",
+    image: categoryKidsImage,
+    link: "/kids"
+  },
+  {
+    id: "casual",
+    title: "T-Shirts & Jeans",
+    description: "Trendy casual wear collection",
+    image: categoryCasualImage,
+    link: "/casual"
+  },
+  {
+    id: "nightwear",
+    title: "Night Wear for Kids",
+    description: "Comfortable sleepwear & pajamas",
+    image: categoryNightwearImage,
+    link: "/nightwear"
   }
 ];
 
@@ -79,13 +103,6 @@ const CategoryGrid = () => {
                 <p className="text-muted-foreground mb-4">
                   {category.description}
                 </p>
-                <Button 
-                  variant="ghost" 
-                  className="group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300"
-                >
-                  Explore Collection
-                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                </Button>
               </div>
 
               {/* Corner Accent */}

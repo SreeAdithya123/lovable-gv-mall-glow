@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2 space-y-6">
             <div>
-              <h3 className="text-3xl font-bold mb-2">GV Mall</h3>
+              <h3 className="text-3xl font-bold mb-2">G.L.R Shopping Mall</h3>
               <p className="text-primary-foreground/80 text-lg">
                 Celebrating tradition, embracing style. Your trusted partner for 
                 every special moment and everyday elegance.
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 flex-shrink-0" />
-                <span>GV Mall, Fashion Street, Hyderabad, Telangana 500001</span>
+                <span>G.L.R Shopping Mall, Main Rd, Nidadavole, Andhra Pradesh 534301, India</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 flex-shrink-0" />
