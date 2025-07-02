@@ -57,7 +57,7 @@ const VideoTeaser = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-glow group cursor-pointer">
               <img 
                 src={storeInteriorImage}
-                alt="GV Mall store interior showcasing beautiful collections"
+                alt="G.L.R Shopping Mall store interior showcasing beautiful collections"
                 className="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105"
               />
               

@@ -62,7 +62,7 @@ const SocialProof = () => {
             What Our Customers Say
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Real experiences from families who trust GV Mall for their celebrations
+            Real experiences from families who trust G.L.R Shopping Mall for their celebrations
           </p>
         </div>
 

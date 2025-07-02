@@ -28,7 +28,7 @@ const HeroSection = () => {
                 Celebrate Every{" "}
                 <span className="text-accent animate-glow">Moment</span>
                 <br />
-                at GV Mall
+                at G.L.R Shopping Mall
               </h1>
               <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-2xl">
                 Your one-stop destination for fashion, furnishings & fun.
