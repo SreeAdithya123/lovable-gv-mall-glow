@@ -27,8 +27,9 @@ const StoreVisit = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Address</h3>
                   <p className="text-muted-foreground">
-                    GV Mall, Fashion Street<br />
-                    Hyderabad, Telangana 500001
+                    G.L.R Shopping Mall<br />
+                    Main Rd, Nidadavole<br />
+                    Andhra Pradesh 534301, India
                   </p>
                 </div>
               </div>
@@ -66,6 +67,7 @@ const StoreVisit = () => {
                 variant="cta"
                 size="lg"
                 className="text-lg px-8 py-6 h-auto"
+                onClick={() => window.open('https://maps.app.goo.gl/QPKqcXVCF3eCeZXU8', '_blank')}
               >
                 <Navigation className="w-5 h-5" />
                 Get Directions
@@ -93,7 +95,11 @@ const StoreVisit = () => {
                 <p className="text-muted-foreground">
                   Interactive map will load when you click "Get Directions"
                 </p>
-                <Button variant="ghost" className="mt-4">
+                <Button 
+                  variant="ghost" 
+                  className="mt-4"
+                  onClick={() => window.open('https://maps.app.goo.gl/QPKqcXVCF3eCeZXU8', '_blank')}
+                >
                   View on Google Maps
                 </Button>
               </div>
